@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "src": "/api/wc/(.*)",
+      "dest": "https://mentorabridge.com/wp-json/wc/$1"
+    },
+    {
+      "src": "/api/mentora/(.*)",
+      "dest": "https://mentorabridge.com/wp-json/mentora/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
